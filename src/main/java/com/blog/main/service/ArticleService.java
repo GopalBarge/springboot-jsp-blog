@@ -1,8 +1,8 @@
-package com.ems.main.service;
+package com.blog.main.service;
 
 import java.util.List;
 
-import com.ems.main.dto.ArticleDTO;
+import com.blog.main.dto.ArticleDTO;
 
 public interface ArticleService {
 

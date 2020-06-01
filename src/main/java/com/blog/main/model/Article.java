@@ -1,4 +1,4 @@
-package com.ems.main.model;
+package com.blog.main.model;
 
 import javax.persistence.Column;
 import javax.persistence.Entity;

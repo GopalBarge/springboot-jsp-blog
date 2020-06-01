@@ -1,4 +1,4 @@
-package com.ems.main.controller;
+package com.blog.main.controller;
 
 import java.util.List;
 import java.util.Map;
@@ -11,8 +11,8 @@ import org.springframework.web.bind.annotation.ModelAttribute;
 import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RequestParam;
 
-import com.ems.main.dto.ArticleDTO;
-import com.ems.main.service.ArticleService;
+import com.blog.main.dto.ArticleDTO;
+import com.blog.main.service.ArticleService;
 
 @Controller
 public class ArticleController {

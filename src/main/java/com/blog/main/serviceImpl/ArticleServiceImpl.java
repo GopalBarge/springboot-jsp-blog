@@ -1,16 +1,16 @@
-package com.ems.main.serviceImpl;
+package com.blog.main.serviceImpl;
 
 import java.util.ArrayList;
 import java.util.List;
 import java.util.stream.Collectors;
 
-import com.ems.main.model.Article;
+import com.blog.main.model.Article;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
-import com.ems.main.dto.ArticleDTO;
-import com.ems.main.repository.ArticleRepository;
-import com.ems.main.service.ArticleService;
+import com.blog.main.dto.ArticleDTO;
+import com.blog.main.repository.ArticleRepository;
+import com.blog.main.service.ArticleService;
 
 @Service
 public class ArticleServiceImpl implements ArticleService {

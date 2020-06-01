@@ -1,6 +1,6 @@
-package com.ems.main.dto;
+package com.blog.main.dto;
 
-import com.ems.main.model.Article;
+import com.blog.main.model.Article;
 
 import java.sql.Timestamp;
 

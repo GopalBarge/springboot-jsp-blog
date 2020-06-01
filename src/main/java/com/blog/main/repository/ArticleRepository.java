@@ -1,6 +1,6 @@
-package com.ems.main.repository;
+package com.blog.main.repository;
 
-import com.ems.main.model.Article;
+import com.blog.main.model.Article;
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.stereotype.Repository;
 

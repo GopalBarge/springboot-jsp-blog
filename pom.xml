@@ -8,8 +8,8 @@
 	    <version>2.2.7.RELEASE</version>
 	</parent>
 
-    <groupId>com.ems.main</groupId>
-    <artifactId>EMSApp</artifactId>
+    <groupId>com.blog.main</groupId>
+    <artifactId>blog</artifactId>
     <version>1.0-SNAPSHOT</version>
     <packaging>war</packaging>
     <properties>

@@ -1,4 +1,4 @@
-package com.ems.main;
+package com.blog.main;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
@@ -7,10 +7,10 @@ import org.springframework.web.servlet.ViewResolver;
 import org.springframework.web.servlet.view.InternalResourceViewResolver;
 
 @SpringBootApplication
-public class EMSApplication {
+public class Application {
 
     public static void main(String[] args) throws Exception {
-        SpringApplication.run(EMSApplication.class, args);
+        SpringApplication.run(Application.class, args);
     }
     
     @Bean
