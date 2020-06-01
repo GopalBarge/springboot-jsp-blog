@@ -39,6 +39,10 @@ td, th {
         <td>Description :</td>
         <td><form:textarea path="description" id="description"/></td>
     </tr>
+    <tr>
+            <td>Title :</td>
+            <td><form:textarea path="title" id="title"/></td>
+        </tr>
 
     <tr>
         <td colspan="2"><input type="submit" value="<c:out value="${article.articleId != null ? 'Update' : 'Add' }" />"

@@ -28,7 +28,7 @@ td, th {
 		<tr>
 			<th>Sr No.</th>
 			<th>Auther</th>
-			<th>Description</th>
+			<th>Title</th>
 			<th>Created</th>
 			<th>View Count</th>
 
@@ -39,7 +39,7 @@ td, th {
 				<td>${emp.autherName}</td>
 				<td>
                 					<a href="/edit?id=${emp.articleId}" >
-                					<c:out value="${(emp.viewCount != null and emp.viewCount > 0) ? '*' : '' }" />${emp.description}</a>
+                					<c:out value="${(emp.viewCount != null and emp.viewCount > 0) ? '*' : '' }" />${emp.title}</a>
                 				</td>
 				<td>${emp.created}</td>
 				<td>${emp.viewCount}</td>

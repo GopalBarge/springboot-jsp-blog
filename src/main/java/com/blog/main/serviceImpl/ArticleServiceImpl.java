@@ -50,6 +50,7 @@ public class ArticleServiceImpl implements ArticleService {
 		}
 		emp.setAutherName(empDto.getAutherName());
 		emp.setDescription(empDto.getDescription());
+		emp.setTitle(empDto.getTitle());
 		emp.setViewCount(empDto.getViewCount());
 		return emp;
 	}
@@ -59,7 +60,9 @@ public class ArticleServiceImpl implements ArticleService {
 		empDTO.setArticleId(emp.getArticleId());
 		empDTO.setAutherName(emp.getAutherName());
 		empDTO.setDescription(emp.getDescription());
-		empDTO.setViewCount(emp.getViewCount());		
+		empDTO.setViewCount(emp.getViewCount());
+		empDTO.setTitle(emp.getTitle());
 		return empDTO;
 	}
+
 }

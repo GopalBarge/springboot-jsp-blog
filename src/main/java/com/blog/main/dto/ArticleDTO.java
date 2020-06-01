@@ -8,7 +8,7 @@ public class ArticleDTO {
 
     Long articleId;
     String autherName;
-
+    String title;
     String description;
 
     Timestamp created;
@@ -33,10 +33,19 @@ public class ArticleDTO {
         this.viewCount = viewCount;
     }
 
+    public String getTitle() {
+        return title;
+    }
+
+    public void setTitle(String title) {
+        this.title = title;
+    }
+
     public ArticleDTO(Article article) {
         this.created = article.getCreated();
         this.viewCount = article.getViewCount();
         this.articleId = article.getArticleId();
+        this.title = article.getTitle();
         this.autherName = article.getAutherName();
         this.description = article.getDescription();
     }
@@ -64,4 +73,5 @@ public class ArticleDTO {
     public void setDescription(String description) {
         this.description = description;
     }
+
 }
