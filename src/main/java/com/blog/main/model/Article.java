@@ -12,7 +12,7 @@ import java.sql.Timestamp;
 @Table(name = "article")
 public class Article {
 	@Id
-	@GeneratedValue(strategy= GenerationType.AUTO)
+	@GeneratedValue(strategy= GenerationType.IDENTITY)
 	@Column(name="article_id")
 	Long articleId;
 	@Column(name="auther_name")
@@ -21,6 +21,12 @@ public class Article {
 	@Column(name="description")
 
 	String description;
+	@Column(name="title")
+
+	String title;
+
+
+
 	@Column(name="created_at")
 
 	Timestamp created;
@@ -65,5 +71,13 @@ public class Article {
 
 	public void setViewCount(Long viewCount) {
 		this.viewCount = viewCount;
+	}
+
+	public String getTitle() {
+		return title;
+	}
+
+	public void setTitle(String title) {
+		this.title = title;
 	}
 }
